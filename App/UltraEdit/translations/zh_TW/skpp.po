@@ -1,0 +1,1182 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# , 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: Protection Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-07 16:13-0400\n"
+"PO-Revision-Date: 2014-11-18 16:00-0500\n"
+"Last-Translator: Troy Pennington <tap@idmcomp.com>\n"
+"Language-Team: Chinese <support@idmcomp.com>\n"
+"Language: zh_Hant_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: dialogs/skconnectionerrordialog.cpp:141 skprotectionplus.cpp:46
+msgid ""
+"Sorry, an internet connection could not be detected.  Please check your "
+"connection or notify your system administrator for assistance.\n"
+"\n"
+"If your internet connection uses a proxy, please configure the proxy "
+"settings.\n"
+"\n"
+"If you do not have access to an internet connection, select the manual "
+"activation option."
+msgstr ""
+"很抱歉，互聯網連接無法檢測到。  請檢查連接或通知系統管理員尋求幫助。\n"
+"\n"
+"如果您的Internet連接使用代理，請配置代理設置。\n"
+"\n"
+"如果你沒有連接到互聯網的訪問，選擇手動激活選項。"
+
+#: dialogs/skconnectionerrordialog.cpp:150
+#: dialogs/skofflineactivationdialog.h:45 dialogs/skactivationdialog.cpp:176
+#: frames/sklicensemanagementframe.cpp:679
+msgid "Offline Activation"
+msgstr "脫機激活"
+
+#: dialogs/skconnectionerrordialog.cpp:153
+msgid "OK"
+msgstr "OK"
+
+#: dialogs/skerror5013dialog.h:46
+msgid "Error 5013 Dialog"
+msgstr "錯誤5013“對話框"
+
+#: dialogs/skofflineactivationdialog.cpp:132
+msgid ""
+"Offline activation is only provided if you do not have access to an internet "
+"connection."
+msgstr "僅提供脫機激活，如果你沒有訪問互聯網的連接。"
+
+#: dialogs/skofflineactivationdialog.cpp:136
+msgid ""
+"Please send User Code 1, User Code 2, and your license ID to the email "
+"address listed below."
+msgstr "請下面列出的電子郵件地址發送給用戶代碼，用戶代碼2，您的許可證編號。"
+
+#: dialogs/skofflineactivationdialog.cpp:140
+msgid ""
+"In response, we will send you authorization codes which you will enter to "
+"activate the application."
+msgstr "為此，我們將發送給您授權碼，你將進入激活的應用程序。"
+
+#: dialogs/skofflineactivationdialog.cpp:144
+#: dialogs/sklicensevalidationdialog.cpp:131
+#: dialogs/skactivationdialog.cpp:137 frames/sklicensemanagementframe.cpp:566
+#: frames/sklicensemanagementframe.cpp:631
+msgid "License ID:"
+msgstr "授權 ID："
+
+#: dialogs/skofflineactivationdialog.cpp:150
+#: dialogs/sklicensevalidationdialog.cpp:137
+#: dialogs/skactivationdialog.cpp:143 frames/sklicensemanagementframe.cpp:560
+#: frames/sklicensemanagementframe.cpp:637
+msgid "Password:"
+msgstr "密碼："
+
+#: dialogs/skofflineactivationdialog.cpp:156
+#: frames/sklicensemanagementframe.cpp:643
+msgid "User Code 1:"
+msgstr "用戶守則1："
+
+#: dialogs/skofflineactivationdialog.cpp:162
+#: frames/sklicensemanagementframe.cpp:649
+msgid "User Code 2:"
+msgstr "用戶守則2："
+
+#: dialogs/skofflineactivationdialog.cpp:168
+#: frames/sklicensemanagementframe.cpp:655
+msgid "Authorization Code 1:"
+msgstr "授權碼1："
+
+#: dialogs/skofflineactivationdialog.cpp:174
+#: frames/sklicensemanagementframe.cpp:661
+msgid "Authorization Code 2:"
+msgstr "授權碼2："
+
+#: dialogs/skofflineactivationdialog.cpp:180
+msgid "support@idmcomp.com"
+msgstr "support@idmcomp.com"
+
+#: dialogs/skofflineactivationdialog.cpp:186
+#: dialogs/skactivationdialog.cpp:197
+msgid "&Activate"
+msgstr "激活"
+
+#: dialogs/skofflineactivationdialog.cpp:190
+#: dialogs/sklicensevalidationdialog.cpp:149
+#: dialogs/skactivationdialog.cpp:201 dialogs/skproxysettingsdialog.cpp:168
+msgid "&Cancel"
+msgstr "取消"
+
+#: dialogs/skproxysettingsdialog.h:42
+msgid "Proxy Settings"
+msgstr "代理設置"
+
+#: dialogs/skerror6000dialog.cpp:136
+msgid ""
+"Thank you for downloading and installing this version of UltraEdit.\n"
+"\n"
+"However, this version was released outside of your free upgrade eligibility "
+"period."
+msgstr ""
+"感謝您下載並安裝此版本的 UltraEdit。\n"
+"\n"
+"但是，此版本在您的免費升級資格期限之後發佈。"
+
+#: dialogs/skerror6000dialog.cpp:140
+msgid ""
+"Please use the link below to upgrade your license and renew your free "
+"upgrade eligibility for another year."
+msgstr "請使用下面的連結升級您的授權並續約您下一年的免費升級資格。"
+
+#: dialogs/skerror6000dialog.cpp:153
+msgid "Click here to upgrade your license"
+msgstr "按一下此處升級您的授權。"
+
+#: dialogs/skerror6000dialog.cpp:159 dialogs/sklicensevalidationdialog.cpp:146
+#: dialogs/skerror5013dialog.cpp:179 dialogs/skerrordialog.cpp:169
+#: dialogs/skproxysettingsdialog.cpp:165
+msgid "&OK"
+msgstr "&OK"
+
+#: dialogs/skactivationdialog.h:48
+msgid "Activation"
+msgstr "激活"
+
+#: dialogs/sklicensevalidationdialog.cpp:128
+msgid ""
+"Your license ID or password are incorrect.  Please verify your license "
+"information using your registration email.  For support contact "
+"support@idmcomp.com."
+msgstr ""
+"您輸入的授權 ID 或密碼錯誤。請檢查您的註冊電子郵件並重試。 請與我們的支援團隊"
+"連絡，以就此問題獲得更多協助。support@idmcomp.com."
+
+#: dialogs/skerror6000dialog.h:44
+msgid "Error 6000 Dialog"
+msgstr "錯誤6000“對話框"
+
+#: dialogs/skupdatestatus.h:42
+msgid "Update Status"
+msgstr "更新狀態"
+
+#: dialogs/skconnectionerrordialog.h:41
+#: frames/sklicensemanagementframe.cpp:787
+msgid "Connection Error"
+msgstr "連接錯誤"
+
+#: dialogs/sklicensevalidationdialog.h:39
+msgid "License Validation"
+msgstr "授權驗證"
+
+#: dialogs/skupdatestatus.cpp:158 dialogs/skupdatestatus.cpp:294
+#: dialogs/skupdatestatus.cpp:304 dialogs/skupdatestatus.cpp:318
+msgid "A new version is available!"
+msgstr "已有新的版本可用!"
+
+#: dialogs/skupdatestatus.cpp:164 dialogs/skupdatestatus.cpp:295
+msgid "This update is free for you."
+msgstr "此更新為免費提供給您。"
+
+#: dialogs/skupdatestatus.cpp:181
+msgid "Current Version:"
+msgstr "目前版本:"
+
+#: dialogs/skupdatestatus.cpp:184 dialogs/skupdatestatus.cpp:190
+msgid "Static text"
+msgstr "Static text"
+
+#: dialogs/skupdatestatus.cpp:187
+msgid "Update Version:"
+msgstr "更新版本:"
+
+#: dialogs/skupdatestatus.cpp:193 dialogs/skupdatestatus.cpp:296
+#: dialogs/skupdatestatus.cpp:323
+msgid "Download update"
+msgstr "下載並安裝更新"
+
+#: dialogs/skupdatestatus.cpp:196
+msgid "See what's new"
+msgstr "查看新增功能"
+
+#: dialogs/skupdatestatus.cpp:306
+msgid "This important update is outside your free upgrade eligibility period."
+msgstr "此重要更新屬於您免費升級資格期間之外。"
+
+#: dialogs/skupdatestatus.cpp:309
+msgid "Upgrade now"
+msgstr "立即更新"
+
+#: dialogs/skerror5013dialog.cpp:141
+msgid ""
+"We apologize for the inconvenience.\n"
+"\n"
+"Your license has already been activated on the maximum number of permitted "
+"computers."
+msgstr ""
+"給您帶來不便，我們深感抱歉！.\n"
+"\n"
+"已在允許的所有電腦上啟動您的授權。"
+
+#: dialogs/skerror5013dialog.cpp:145
+msgid "Please choose how you wish to proceed below."
+msgstr "請在下面選擇您將如何繼續。"
+
+#: dialogs/skerror5013dialog.cpp:165
+msgid "I want to purchase additional licenses."
+msgstr "我要購買其他授權。"
+
+#: dialogs/skerror5013dialog.cpp:168
+msgid "I want to reset all my activations for this license."
+msgstr "我要重設此授權的所有啟動。"
+
+#: dialogs/skerror5013dialog.cpp:171
+msgid "I want to contact IDM support for further assistance."
+msgstr "我要連絡 IDM 技術支援以獲得更多協助。"
+
+#: dialogs/skactivationdialog.cpp:149
+msgid "Support Options"
+msgstr "支持選項"
+
+#: dialogs/skactivationdialog.cpp:155
+msgid "idm@idmcomp.com"
+msgstr "idm@idmcomp.com"
+
+#: dialogs/skactivationdialog.cpp:161
+msgid "www.idmcomp.com"
+msgstr "www.idmcomp.com"
+
+#: dialogs/skactivationdialog.cpp:164
+msgid "or"
+msgstr "或"
+
+#: dialogs/skactivationdialog.cpp:167
+msgid "www.ultraedit.com"
+msgstr "www.ultraedit.com"
+
+#: dialogs/skactivationdialog.cpp:170
+msgid "IDM Computer Solutions, Inc. (513) 892-8600"
+msgstr "IDM Computer Solutions, Inc. (513) 892-8600"
+
+#: dialogs/skactivationdialog.cpp:183
+msgid "Proxy"
+msgstr "代理"
+
+#: dialogs/skactivationdialog.cpp:189
+msgid "Buy Now!"
+msgstr "現在購買！"
+
+#: dialogs/skerrordialog.cpp:143
+msgid ""
+"We apologize for the inconvenience.\n"
+"\n"
+"However, there was a problem with your activation."
+msgstr ""
+"給您帶來不便，我們深感抱歉。.\n"
+"\n"
+"但是，您的啟動存在問題。"
+
+#: dialogs/skerrordialog.cpp:150
+msgid "This license is outside of its free maintenance upgrade period."
+msgstr "此版本在您的免費升級資格期限之後發佈。"
+
+#: dialogs/skerrordialog.cpp:163
+msgid "Click here to email IDM support."
+msgstr "按一下此處給 IDM 技術支援傳送電子郵件。"
+
+#: dialogs/skerrordialog.h:43
+msgid "Error Dialog"
+msgstr "錯誤對話框"
+
+#: dialogs/skproxysettingsdialog.cpp:126
+msgid ""
+"A connection to the activation server could not be established. If necessary "
+"please configure your proxy settings below."
+msgstr ""
+"不能建立一個連接到激活服務器。 如果必要的話，請在下面配置您的代理設置。"
+
+#: dialogs/skproxysettingsdialog.cpp:136
+msgid "Proxy Server:"
+msgstr "代理服務器："
+
+#: dialogs/skproxysettingsdialog.cpp:142
+msgid "Proxy Port:"
+msgstr "代理端口："
+
+#: dialogs/skproxysettingsdialog.cpp:148
+msgid "Proxy User:"
+msgstr "代理使用者:"
+
+#: dialogs/skproxysettingsdialog.cpp:154
+msgid "Proxy Password:"
+msgstr "代理伺服器密碼:"
+
+#: skprotectionplus.cpp:42
+msgid "Registration/Activation successful."
+msgstr "註冊/激活成功。"
+
+#: skprotectionplus.cpp:43
+msgid "Unregistration/Deactivation successful."
+msgstr "註銷/停用成功。"
+
+#: skprotectionplus.cpp:44
+msgid "Registration"
+msgstr "註冊"
+
+#: skprotectionplus.cpp:45
+msgid ""
+"Offline activation is only provided if you do not have access to an internet "
+"connection.\n"
+"\n"
+"Please send User Code 1, User Code 2, and your license ID to the email "
+"address listed below.\n"
+"\n"
+"In response, we will send you authorization codes which you will enter to "
+"activate the application."
+msgstr ""
+"僅提供脫機激活，如果你沒有訪問互聯網的連接。\n"
+"\n"
+"請下面列出的電子郵件地址發送給用戶代碼，用戶代碼2，您的許可證編號。\n"
+"\n"
+"為此，我們將發送給您授權碼，你將進入激活的應用程序。"
+
+#: skprotectionplus.cpp:47
+#, c-format
+msgid ""
+"There was an error processing your request.\n"
+"\n"
+"  Error Number: %ld\n"
+"  Error Description: %s"
+msgstr ""
+"有一個錯誤處理您的請求。\n"
+"\n"
+"  錯誤號： %ld\n"
+"  錯誤描述： %s"
+
+#: skprotectionplus.cpp:48
+msgid ""
+"The license file does not exist or is an incorrect format. Please contact "
+"your system administrator."
+msgstr "授權檔不存在或格式錯誤。請與系統管理員連絡。"
+
+#: skprotectionplus.cpp:49
+msgid "Please enter a license ID."
+msgstr "請輸入授權 ID。"
+
+#: skprotectionplus.cpp:50
+msgid "Please enter a password."
+msgstr "請輸入密碼。"
+
+#: skprotectionplus.cpp:51
+msgid "Please enter an authorization code."
+msgstr "請輸入授權碼。"
+
+#: skprotectionplus.cpp:52
+msgid "Error"
+msgstr "錯誤"
+
+#: skprotectionplus.cpp:53
+msgid "Invalid Code"
+msgstr "代碼無效"
+
+#: skprotectionplus.cpp:54
+msgid ""
+"You have entered an invalid code.  You will have to re-submit User Code1 and "
+"User Code2 to support@idmcomp.com."
+msgstr ""
+"您輸入的代碼無效。您必須重新向 support@idmcomp.com 提交用戶代碼 1 和用戶代碼 "
+"2。"
+
+#: skprotectionplus.cpp:55
+msgid ""
+"There was an error validating your license.  You may contact our support "
+"services via email at support@idmcomp.com.  Please provide the email "
+"address, contact name, and organization used to purchase the license along "
+"with your license ID."
+msgstr ""
+"授權驗證時出錯。您可以傳送電子郵件至 support@idmcomp.com，連絡我們的支援服"
+"務。請提供用於購買授權的電子郵件、聯絡人姓名和組織，以及您的授權 ID。給您帶來"
+"任何不便，我們在此深表歉意。"
+
+#: skprotectionplus.cpp:56
+msgid ""
+"Your license ID or password are incorrect.  Please verify and try again."
+msgstr "您的授權 ID 或密碼不正確。請進行驗證然後重試。"
+
+#: skprotectionplus.cpp:57
+msgid "Please contact our support team for further assistance."
+msgstr "以就此問題獲得更多協助。"
+
+#: skprotectionplus.cpp:58
+msgid "Please try activating again."
+msgstr "如果您仍然遇到此問題，請與我們的支援團隊連絡。"
+
+#: skprotectionplus.cpp:59
+msgid ""
+"If you continue to experience this error, please contact our support team."
+msgstr "如果您仍然遇到此問題，請與我們的支援團隊連絡。"
+
+#: skprotectionplus.cpp:60
+msgid ""
+"There was a problem with the encryption key when the server was contacted."
+msgstr "連絡伺服器時，加密金鑰存在問題。"
+
+#: skprotectionplus.cpp:61
+msgid "There was a problem with securely contacting the server."
+msgstr "安全連絡伺服器時出現問題。"
+
+#: skprotectionplus.cpp:62
+msgid ""
+"There was a problem verifying the digital signature when contacting the "
+"server."
+msgstr "連絡伺服器時，驗證數位簽章出現問題。"
+
+#: skprotectionplus.cpp:63
+msgid "There was a problem with the information sent to the server."
+msgstr "向伺服器傳送資訊時出現問題。"
+
+#: skprotectionplus.cpp:64
+msgid ""
+"You have attempted activation too many times in too short of a time period."
+msgstr "在短時間內，您嘗試啟動次數過多。"
+
+#: skprotectionplus.cpp:65 skprotectionplus.cpp:73
+msgid "There was a problem activating the license on this computer."
+msgstr "啟動此電腦上的授權時出現問題。"
+
+#: skprotectionplus.cpp:66
+msgid "The license ID or password you entered is incorrect."
+msgstr "您輸入的授權 ID 或密碼錯誤。"
+
+#: skprotectionplus.cpp:67
+msgid "Please check your registration email and try again."
+msgstr "請檢查您的註冊電子郵件並重試。"
+
+#: skprotectionplus.cpp:68
+msgid "The license you provided is for an unregistered customer."
+msgstr "您提供的授權屬於未註冊用戶。"
+
+#: skprotectionplus.cpp:69
+msgid ""
+"The license ID you entered is for a different application. Please make sure "
+"the software you are registering matches the software title shown in the "
+"registration e-mail you received with your order."
+msgstr ""
+"您輸入的授權 ID 用於其他應用程式。請確保您所註冊的軟體與您在訂購時收到的註冊"
+"電子郵件中顯示的軟體名稱一致。"
+
+#: skprotectionplus.cpp:70 skprotectionplus.cpp:72
+msgid "There was a problem with the license ID you provided."
+msgstr "您提供的授權 ID 存在問題。"
+
+#: skprotectionplus.cpp:71
+msgid ""
+"The version you have installed is incorrect.  Please ensure you install the "
+"correct version of this application for your license."
+msgstr "您安裝的版本不正確。請確保根據您的授權安裝此應用程式的正確版本。"
+
+#: skprotectionplus.cpp:74
+msgid "This license is no longer valid."
+msgstr "此授權已失效。"
+
+#: skprotectionplus.cpp:75
+msgid "This license cannot be deactivated anymore."
+msgstr "無法取消啟動此授權。"
+
+#: skprotectionplus.cpp:76
+msgid "The license ID you provided has expired."
+msgstr "您提供的授權 ID 已過期。"
+
+#: skprotectionplus.cpp:77
+msgid "An internal authentication failure occurred."
+msgstr "出現內部驗證失敗。"
+
+#: skprotectionplus.cpp:78
+msgid "There was a problem activating from this IP address."
+msgstr "透過此 IP 位址啟動遇到問題。"
+
+#: skprotectionplus.cpp:79
+msgid ""
+"The time on this system is not correct. Please adjust your system clock to "
+"the correct time and try activating again."
+msgstr "此系統的時間不正確。請調整您的系統時鐘以校正時間並嘗試重新啟動。"
+
+#: skprotectionplus.cpp:80
+msgid "Internal error."
+msgstr "內部錯誤。"
+
+#: skprotectionplus.cpp:81
+msgid "Internal error contacting server."
+msgstr "連絡伺服器時出現內部錯誤。"
+
+#: skprotectionplus.cpp:82
+msgid ""
+"No more network seats are currently free. Please see your license "
+"administrator."
+msgstr "當前沒有空閒網路座位。請連絡您的授權管理員。"
+
+#: skprotectionplus.cpp:83
+msgid ""
+"The license ID you entered is not valid for this platform. Please make sure "
+"the software you are registering matches the software title shown in the "
+"registration e-mail you received with your order."
+msgstr ""
+"您輸入的授權 ID 對此平台無效。請確認 您所登記的軟體與您接收訂單時的註冊電子郵"
+"件所顯示的 軟體標題相符。"
+
+#: skprotectionplus.cpp:84
+msgid "Reset all activations was successful."
+msgstr "重置所有激活成功。"
+
+#: skprotectionplus.cpp:85
+#, c-format
+msgid "  You have %s activations remaining."
+msgstr "  你有 %s 激活剩餘。"
+
+#: skprotectionplus.cpp:875 sklicenseconverter.cpp:53
+msgid "At least one identifier algorithm is required."
+msgstr ""
+
+#: skprotectionplus.cpp:1033 skprotectionplus.cpp:3150
+#: skprotectionplus.cpp:3222 skprotectionplus.cpp:3395
+#: sklicenseconverter.cpp:99
+msgid "Unable to load license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:1067
+msgid "Unable to create license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:1132
+msgid "Unable to open license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:2457
+msgid "Unable to load enterprise demo license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:2491
+msgid "Unable to create enterprise demo license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:3185
+msgid "Unable to create subscription license file: \n"
+msgstr ""
+
+#: skprotectionplus.cpp:3242
+msgid "Thank you for downloading and installing this version of "
+msgstr "感謝您下載並安裝此版本的 "
+
+#: skprotectionplus.cpp:3242
+msgid ""
+".\n"
+"\n"
+"However, this version was released outside of your free upgrade eligibility "
+"period."
+msgstr ""
+".\n"
+"\n"
+"但是，此版本在您的免費升級資格期限之後發佈。"
+
+#: skprotectionplus.cpp:3346
+msgid "License server is busy. Please try again later."
+msgstr "授權伺服器忙碌中。請稍後再試一次。"
+
+#: skprotectionplus.cpp:3346
+msgid " License Status"
+msgstr " 授權狀態"
+
+#: skprotectionplus.cpp:3350
+msgid "Are you sure you want to Deactivate?"
+msgstr "你確定要關閉？"
+
+#: skprotectionplus.cpp:3350
+msgid "Unregister/Deactivate"
+msgstr "取消註冊/停用"
+
+#: skprotectionplus.cpp:3776
+msgid ""
+"This software is licensed to:\n"
+"\n"
+msgstr ""
+"本軟體授權給：\n"
+"\n"
+
+#: skprotectionplus.cpp:3810
+msgid "License ID: Enterprise License"
+msgstr "授權 ID：企業授權"
+
+#: skprotectionplus.cpp:3814
+msgid "License ID: "
+msgstr "授權 ID： "
+
+#: skprotectionplus.cpp:4000 skprotectionplus.cpp:4013
+#: skprotectionplus.cpp:4027 skprotectionplus.cpp:4034
+#: skprotectionplus.cpp:4059
+msgid " Update Status"
+msgstr "更新狀態"
+
+#: skprotectionplus.cpp:4034
+msgid "No update available at this time."
+msgstr "目前未提供更新。"
+
+#: skprotectionplus.cpp:4059
+msgid "Update server is busy. Please try again later."
+msgstr "更新伺服器忙碌中。請稍後再試一次。"
+
+#: frames/sklicensemanagementframe.cpp:254
+msgid "&Quit"
+msgstr "結束(&Q)"
+
+#: frames/sklicensemanagementframe.cpp:255 ProtectionPlusMain.cpp:64
+msgid "&File"
+msgstr "檔案(&F)"
+
+#: frames/sklicensemanagementframe.cpp:257
+msgid "&About"
+msgstr "關於(&A)"
+
+#: frames/sklicensemanagementframe.cpp:258 ProtectionPlusMain.cpp:68
+msgid "&Help"
+msgstr "說明(&H)"
+
+#: frames/sklicensemanagementframe.cpp:264
+#: frames/sklicensemanagementframe.cpp:269
+msgid "UltraEdit"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:265
+msgid "UltraCompare"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:266
+msgid "UltraSentry"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:267
+msgid "UltraFinder"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:273
+msgid "Mac OS X"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:274
+#: frames/sklicensemanagementframe.cpp:277
+msgid "Linux"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:275
+msgid "Windows"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:280
+msgid "Release Days:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:286
+msgid "Version:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:304
+#: frames/sklicensemanagementframe.cpp:459
+msgid "First Name:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:310
+#: frames/sklicensemanagementframe.cpp:465
+msgid "Last Name:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:316
+#: frames/sklicensemanagementframe.cpp:471
+msgid "Company Name:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:322
+#: frames/sklicensemanagementframe.cpp:477
+msgid "Address Line 1:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:328
+#: frames/sklicensemanagementframe.cpp:483
+msgid "Address Line 2:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:334
+#: frames/sklicensemanagementframe.cpp:489
+msgid "City:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:340
+#: frames/sklicensemanagementframe.cpp:495
+msgid "State:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:346
+#: frames/sklicensemanagementframe.cpp:501
+msgid "Zip:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:352
+#: frames/sklicensemanagementframe.cpp:507
+msgid "Country:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:358
+#: frames/sklicensemanagementframe.cpp:513
+msgid "Phone:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:364
+#: frames/sklicensemanagementframe.cpp:519
+msgid "Fax:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:370
+#: frames/sklicensemanagementframe.cpp:525
+msgid "Email:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:376
+msgid "Activation Time:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:382
+msgid "Activation Version"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:388
+msgid "Maintenance"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:392
+#: frames/sklicensemanagementframe.cpp:397
+msgid "0 - 1 year"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:393
+msgid "1 - 2 years"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:394
+msgid "2 - Maintenance"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:395
+msgid "3 - Unlimited"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:406
+#: frames/sklicensemanagementframe.cpp:614
+#: frames/sklicensemanagementframe.cpp:620
+msgid "Create License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:409
+msgid "Validate License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:412
+msgid "Create Enterprise License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:420
+msgid "Protection Plus v4 License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:428
+#: frames/sklicensemanagementframe.cpp:440
+msgid "..."
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:431
+msgid "Protection Plus v5 License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:445
+msgid "Convert v4 License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:448
+msgid "Convert License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:537
+#: frames/sklicensemanagementframe.cpp:543
+msgid "Create Customer"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:540
+msgid "Find Customer"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:554
+msgid "Customer ID:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:572
+msgid "Quantity:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:575
+msgid "1"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:578
+msgid "Activations:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:581
+msgid "2"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:584
+msgid "Deactivations:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:587
+msgid "3"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:590
+msgid "Maintenance:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:593
+#: frames/sklicensemanagementframe.cpp:605
+msgid "0"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:596
+msgid "Order Date:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:599
+msgid "6/14/2011"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:602
+msgid "Unit Price:"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:617
+msgid "Update License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:673
+msgid "Activate License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:676
+msgid "Deactivate License"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:682
+msgid "Check Status Thread"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:685
+msgid "Reset Activations"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:688
+msgid "License Actions"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:696
+msgid "No Activations Remaining"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:699
+msgid "License Not Valid For Version"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:705
+#: frames/sklicensemanagementframe.cpp:734
+msgid "5000 - Invalid Encryption Key ID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:706
+msgid "5001 - Encryption Required"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:707
+msgid "5002 - Signature Required"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:708
+msgid "5003 - Decryption Failure"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:709
+msgid "5004 - Digital Signature Verification Failed"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:710
+msgid "5005 - Invalid Parameters"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:711
+msgid "5006 - Security Check Failure"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:712
+msgid "5007 - Invalid Computer ID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:713
+msgid "5008 - Invalid Activation Data"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:714
+msgid "5009 - Unregistered Customer"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:715
+msgid "5010 - Invalid Product ID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:716
+msgid "5011 - Invalid Product Option ID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:717
+msgid "5012 - Invalid Product Version"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:718
+msgid "5014 - Invalid Product Option ID Type"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:719
+msgid "5015 - Invalid Installation ID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:720
+msgid "5016 - Deactivated Installation"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:721
+msgid "5017 - Invalid License Status"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:722
+msgid "5018 - No remaining deactivations"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:723
+msgid "5019 - License ID has expired"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:724
+msgid "5020 - Internal authentication failed"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:725
+msgid "5021 - Invalid IP address detected"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:726
+msgid "5022 - Invalid System Time"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:727
+msgid "5023 - PLUSManaged access not enabled"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:728
+msgid "5024 - Invalid XML document"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:729
+msgid "5025 - Plug-in failed"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:730
+msgid "5026 - Plug-in processing failed"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:731
+msgid "5027 - Invalid Network Session"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:732
+msgid "5028 - No Network Seats Remaining"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:737
+msgid "Web Service Result Code"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:743
+#: frames/sklicensemanagementframe.cpp:775
+msgid "9001 - ERROR_INVALID_DATA"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:744
+msgid "9002 - ERROR_INVALID_SERVER_KEY"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:745
+msgid "9003 - ERROR_INVALID_CLIENT_KEY"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:746
+msgid "9004 - ERROR_DECRYPTION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:747
+msgid "9005 - ERROR_VERIFICATION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:748
+msgid "9006 - ERROR_ENCRYPTION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:749
+msgid "9007 - ERROR_SIGNING_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:750
+msgid "9008 - ERROR_SESSION_VERIFICATION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:751
+msgid "9009 - ERROR_INSTALLATIONID_REQUIRED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:752
+msgid "9100 - ERROR_WEBSERVICE_INVALID_CONFIGURATION"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:753
+msgid "9101 - ERROR_WEBSERVICE_CALL_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:754
+msgid "9102 - ERROR_WEBSERVICE_RETURNED_FAILURE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:755
+msgid "9103 - ERROR_REQUIRED_SERVER_VALIDATION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:756
+msgid "9200 - ERROR_COULD_NOT_LOAD_LICENSE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:757
+msgid "9201 - ERROR_COULD_NOT_SAVE_LICENSE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:758
+msgid "9202 - ERROR_LICENSE_NOT_EFFECTIVE_YET"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:759
+msgid "9203 - ERROR_LICENSE_EXPIRED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:760
+msgid "9204 - ERROR_LICENSE_ALIAS_VALIDATION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:761
+msgid "9205 - ERROR_LICENSE_ALIAS_VALIDATION_TIME_MISMATCH"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:762
+msgid "9206 - ERROR_COULD_NOT_SAVE_NETWORK_CERTIFICATE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:763
+msgid "9207 - ERROR_NETWORK_CERTIFICATE_INVALID_PATH"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:764
+msgid "9208 - ERROR_NETWORK_CERTIFICATE_REQUIRED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:765
+msgid "9209 - ERROR_COULD_NOT_DELETE_FILE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:766
+msgid "9210 - ERROR_NETWORK_SEMAPHORE_INVALID_PATH"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:767
+msgid "9211 - ERROR_NETWORK_LICENSE_FULL"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:768
+msgid "9212 - ERROR_NETWORK_SEMAPHORE_LOCK_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:769
+msgid "9213 - ERROR_MODULE_NOT_ACTIVE"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:770
+msgid "9300 - ERROR_SYSTEM_TIME_VERIFICATION_FAILED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:771
+msgid "9301 - ERROR_SYSTEM_TIME_INVALID"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:772
+msgid "9302 - ERROR_VIRTUAL_MACHINE_DETECTED"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:773
+msgid "9400 - ERROR_LICENSE_SYSTEM_IDENTIFIERS_DONT_MATCH"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:778
+msgid "Protection Plus Error Code"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:781
+msgid "Check for Updates - Free"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:784
+msgid "Check for Updates - Paid"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:790
+msgid "Error Dialogs"
+msgstr ""
+
+#: frames/sklicensemanagementframe.cpp:794
+msgid "Output Log"
+msgstr ""
+
+#: frames/sklicensemanagementframe.h:127
+msgid "Enterprise License Generator"
+msgstr ""
+
+#: ProtectionPlusMain.cpp:63
+msgid "&Quit\tAlt-F4"
+msgstr "結束，終止(&Q)\tAlt-F4"
+
+#: ProtectionPlusMain.cpp:63
+msgid "Quit the application"
+msgstr "結束應用程式"
+
+#: ProtectionPlusMain.cpp:67
+msgid "&About\tF1"
+msgstr "關於(&A)\tF1"
+
+#: ProtectionPlusMain.cpp:100
+msgid "Welcome to..."
+msgstr "歡迎..."
