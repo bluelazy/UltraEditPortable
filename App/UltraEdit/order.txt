@@ -1,25 +1,118 @@
-                        UltraEdit Order Form
-                        --------------------
-If you find UltraEdit useful, and continue to use it you are
+                     UltraEdit-32 訂購（全球使用者）
+                     ------------------------------
+如果你覺得 UltraEdit-32 一套很好用的軟體並且想繼續使用你就必須註冊它。
+
+您可以透過以下任一方式註冊
+
+1)      在以下網站使用安全訂單：
+        http://www.idmcomp.com/registration/index.html 或
+        https://www.ultraedit.com/store/customer/home.php 或
+
+2)      傳真至   (513) 892 4915         886-2-27491908 (台灣地區)
+        電話     (513) 892 8600 （美國）886-2-27491909 (台灣地區)
+
+3)      信件 - 發送付款/訂單至:	  Ian D. Mead
+                                  IDM Computer Solutions, Inc.
+                                  3987 Hamilton Middletown Rd.
+                                  Suite G
+                                  Indian Springs, OH 45011
+                                  USA
+
+4)      發送電子信件到： sales@ahasoft.com.tw（台灣地區）或 sales@idmcomp.com（其它地區）
+
+5)      經銷商：
+            參見  http://www.ultraedit.com/index.php?name=Content&pa=showpage&pid=43
+            以獲取經銷商名單。
+
+
+您可以通過以下方式支付費用
+
+1.信用卡 - 威士卡,萬事達信用卡,美國運通卡,Discover卡
+2.支票/郵政匯款(可在美國的銀列兌換美金)
+3.現金
+4.採購單(不包含單獨的$39.95升級)
+5.銀行/電匯到我們的帳戶(另需加$12額外費用和您動作付款時所需要一些費用)
+
+
+請提供以下資訊:                                 日期:________________
+
+姓名_____________________________________公司____________________________
+                                         （如果以公司註冊）
+位址_____________________________________________________________________
+
+位址_____________________________________________________________________
+
+城市_____________________ 國家 ________________ 州/省_______________
+
+郵遞區號____________ 國家___________________________________________
+
+電話號碼_________________________ 信件位址_______________________________
+
+
+選擇產品:
+(每個授權 $79.95 )
+
+UltraEdit-32        ______     單價: ______
+
+                                                    小計: ______
+
+運送方式:
+
+   ______ 電子信件發送註冊碼 (免費)
+   ______ 電子信件發送註冊碼和檔案(免費)
+
+   ______ 光碟 (每盤CD都需要另付$6.95)
+   ______ (加拿大使用者需加收$1.00管理費用)
+   ______ (全球使用者需加收$2.00管理費用)
+
+俄亥俄州使用者需增收適當的地方營業稅                  營業稅: ______
+
+                                                    總計：  ______
+
+
+附加拼字字典: (含在下載包內或光碟內)
+
+*** 注意 - 請致電或電郵獲得場所許可和批發折扣
+
+付款方式:
+
+__ 支票/匯票 __ VISA信用卡 __ 萬事達信用卡 __ 美國運通卡.
+____ 現金  ____ 其它
+
+
+信用卡 #_______________________________________ 截止日期__________
+CVV2 號碼 _______________
+
+簽名 ____________________________________________________________________
+（僅要求通過郵寄或傳真的信用卡或訂單進列簽名）
+
+感謝您註冊 UltraEdit/UltraEdit-32 軟體！
+
+
+
+			UltraEdit-32 Order Form
+			-----------------------
+If you find UltraEdit-32 useful, and continue to use it you are
 required to register it.
 
 Registration may be placed by one of the following methods:
 1)      SECURE order form at:
-        http://www.ultraedit.com/ue_register.html
+        http://www.idmcomp.com/registration/index.html or
+        https://www.ultraedit.com/store/customer/home.php or
 
 2)      FAX to (513) 892 4915
         Telephone to (513) 892 8600.
 
-3)      MAIL - send payment/order to:   Ian D. Mead
-                                        IDM Computer Solutions, Inc.
-                                        5559 Eureka Dr.
-                                        Suite B
-                                        Hamilton, OH  45011
-                                        USA
+3)      MAIL - send payment/order to:	Ian D. Mead
+                                	IDM Computer Solutions, Inc.
+                                  3987 Hamilton Middletown Rd.
+                                  Suite G
+                                	Indian Springs, OH 45011
+                                	USA
 4)      E-Mail to idm@idmcomp.com
 
 5)      Distributors:
-            See  http://www.ultraedit.com/register-buy/international_distributors.html
+            See  http://www.ultraedit.com/index.php?name=Content&pa=showpage&pid=43
             for list of distributors.
 
 Payment may be by one of the following methods:
@@ -28,7 +121,7 @@ Payment may be by one of the following methods:
 2)      Check/Postal Money Order (Payable in US Dollars drawn on an US Bank
                                   Branch)
 3)      Cash.
-4)      Purchase Order (Not for single $39.95 upgrades)
+4)      Purchase Order (Not for single $19.95 upgrades)
 5)      Bank/Wire Transfer to my account (This does require an additional $12
         fee as well as any charges at your end)
 
@@ -49,9 +142,9 @@ Phone Number__________________________ E-Mail_______________________________
 
 
 Select Product Quantity:
-($79.95 single license cost)
+($39.95 single license cost)
 
-UltraEdit           ______     Cost Each: ______
+UltraEdit-32        ______     Cost Each: ______
 
                                                     Sub Total: ______
 
@@ -60,8 +153,9 @@ Delivery Method:
    ______ Email Registration Code (FREE)
    ______ Email Registration Code and File (FREE)
 
-   ______ CD ($9.95 additional charge per CD for USA and Canada)
-   ______ (International residents add $3.00 handling fee)
+   ______ CD ($6.95 additional charge per CD)
+   ______ (Canadian residents add $1.00 handling fee)
+   ______ (International residents add $2.00 handling fee)
 
 Ohio residents add appropriate County Sales Tax     Sales Tax: ______
 
@@ -84,4 +178,4 @@ CVV2 Number _______________
 Signature ____________________________________________________________________
 (Only required for credit card or purchase orders that are mailed or FAXED)
 
-Thank you for registering UltraEdit.
+Thank you for registering UltraEdit/UltraEdit-32.
