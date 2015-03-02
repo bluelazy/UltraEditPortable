@@ -1,0 +1,157 @@
+P "編輯(&E)"
+  P "格式(&T)"
+    M "重新格式化段落(&M)\tCtrl+T",              ID_EDIT_REFORMAT
+    P "段落格式(&F)"
+      M "靠左對齊(&L)",                          ID_EDIT_REFORMAT_LEFT
+      M "靠右對齊(&R)",                          ID_EDIT_REFORMAT_RIGHT
+      M "置中對齊(&C)",                          ID_EDIT_REFORMAT_CENTER
+      M "左右對齊(&F)",                          ID_EDIT_REFORMAT_FILL
+      S
+      LM "段落設定/格式化(&S)...",               ID_EDIT_REFORMAT_ADV
+    S
+    M "CR/LF 轉為自動換列(&W)",                  ID_FILE_REMOVECR
+    M "自動換列轉為 CR/LF(&V)",                  ID_FILE_SAVESOFTCR
+    S
+    M "Tab 轉為空格(&S)",                        ID_TABTOSPACES
+    M "全部空格轉為 Tab(&P)",                    ID_SPACESTOSTABSALL
+    M "列首空格轉為 Tab(&D)",                    ID_SPACESTOSTABS
+    S
+    M "刪除列尾空格(&G)",                        ID_TRIM_SPACES
+    S
+    M "OEM 轉 ANSI(&N)",                         ID_OEMTOANSI
+    M "ANSI 轉 OEM(&T)",                         ID_ANSITOOEM
+    S
+    M "轉換成大寫(&O)\tAlt+F5",                  ID_TOUPPER
+    M "轉換成小寫(&L)\tCtrl+F5",                 ID_TOLOWER
+    M "大寫(&A)\tF5",                            ID_CAPITALIZE
+    M "大小寫互換(&C)\tShift+F5",                ID_INVERTCASE
+    S
+    M "加入縮排(&I)",                            ID_ADD_INDENTS
+    M "移除縮排(&E)",                            ID_REMOVE_INDENTS
+    S
+    M "插入分頁符號(&B)",                        ID_EDIT_PAGE_BREAK
+    S
+    P "HTML 檢驗(&H)"
+      M "執行 HTML 清理(&H)",                    ID_TOOLS_HTMLTIDY
+      S
+      M "執行 CSE HTML 檢驗器(&V)",              ID_HTMLVALIDATOR
+      M "CSE HTML 檢驗器工作類型(&J)...",        ID_HTMLVALIDATOR_JOB_TYPE
+      M "CSE HTML 檢驗器選項(&O)...",            ID_HTMLVALIDATOR_OPTIONS
+      LM "CSE HTML 檢驗器配置(&C)",              ID_HTMLVALIDATOR_CFG
+    M "XML 轉換為 CR/LF(&X)",                    ID_XML_VIEWER
+    S
+    LM "選擇區重新縮排(&R)",                     ID_EDIT_REINDENTFILE
+  S
+  M "復原(&U)\tCtrl+Z",                          ID_EDIT_UNDO
+  M "重做(&O)\tCtrl+Y",                          ID_EDIT_REDO
+  S
+  M "剪下(&T)\tCtrl+X",                          ID_EDIT_CUT
+  M "複製(&C)\tCtrl+C",                          ID_EDIT_COPY
+  M "貼上(&P)\tCtrl+V",                          ID_EDIT_PASTE
+  M "貼上及複製\tCtrl+Shift+V",                  ID_EDIT_PASTECOPY
+  M "剪下並附上\tCtrl+Shift+X",                  ID_EDIT_CUTAPPEND
+  M "複製並附上\tCtrl+Shift+C",                  ID_EDIT_COPYAPPEND
+  M "複製檔案路徑/名稱(&H)",                     ID_PATH_TO_CLIPBOARD
+  P "剪貼簿(&B)"
+    M "Windows 剪貼簿(&W)\tCtrl+0",              ID_CLIPBOARD_NORMAL
+    M "使用者剪貼簿 1(&1)\tCtrl+1",              ID_CLIPBOARD_1
+    M "使用者剪貼簿 2(&2)\tCtrl+2",              ID_CLIPBOARD_2
+    M "使用者剪貼簿 3(&3)\tCtrl+3",              ID_CLIPBOARD_3
+    M "使用者剪貼簿 4(&4)\tCtrl+4",              ID_CLIPBOARD_4
+    M "使用者剪貼簿 5(&5)\tCtrl+5",              ID_CLIPBOARD_5
+    M "使用者剪貼簿 6(&6)\tCtrl+6",              ID_CLIPBOARD_6
+    M "使用者剪貼簿 7(&7)\tCtrl+7",              ID_CLIPBOARD_7
+    M "使用者剪貼簿 8(&8)\tCtrl+8",              ID_CLIPBOARD_8
+    LM "使用者剪貼簿 9(&9)\tCtrl+9",             ID_CLIPBOARD_9
+  S
+  M "快速查找 (Q)...",                           ID_EDIT_QUICK_FIND
+  M "搜尋(&F)...\tAlt+F3",                       ID_EDIT_FIND
+  M "取代(&R)...\tCtrl+R",                       ID_EDIT_REPLACE
+  S
+  M "全部選取(&A)\tCtrl+A",                      ID_EDIT_SELECTALL
+  M "選取整列(&L)",                              ID_EDIT_SELECTLINE
+  M "選取單字(&W)\tCtrl+J",                      ID_SELECTWORD
+  M "選取範圍(&S)...",                           ID_SET_SELECTION
+  P "刪除(&E)"
+    M "刪除(&D)\tDEL",                           ID_EDIT_DELETE
+    M "刪除整列(&L)\tCtrl+E",                    ID_EDIT_DELETELINE
+    M "刪除到列首(&S)\tCtrl+F11",                ID_EDIT_DELETETOSTARTOFLINE
+    M "刪除到列尾(&E)\tCtrl+F12",                ID_EDIT_DELETETOENDOFLINE
+    M "刪除所有書籤列",                          ID_DELETEALLBOOKMARKLINES
+    LM "刪除所有隱藏列(&H)",                     ID_VIEW_DELETE_HIDDEN
+  S
+  M "日期/時間(&M)\tF7",                         ID_EDIT_TIMEDATE
+  S
+  M "16 進位編輯(&X)\tCtrl+H",                   ID_EDIT_HEX
+  M "16 進位插入/刪除(&D)...\tCtrl+D",           ID_HEX_INSERT
+  M "16 進位複製選取的檢視(&V)",                 ID_HEX_COPY
+  S
+  M "拼字檢查(&K)\tCtrl+K",                      ID_SPELLCHECK
+  S
+  M "唯讀(&Y)",                                  ID_READONLY
+  S
+  M "切換換列(&G)\tCtrl+W",                      ID_WORD_WRAP
+  S
+  M "加入註解(&N)",                              ID_EDIT_COMMENT
+  M "移除註解",                                  ID_EDIT_COMMENT_REMOVE
+  S
+  M "插入色彩(&I)",                              ID_TOOLS_COLORPICKER
+  S
+  LM "數字轉換",                                 ID_TOOLS_CONVERTNUMBER
+LP "檔案標籤"
+  M "關閉(&C)",                                  ID_FILE_CLOSE
+  M "關閉這個以外的所有檔案(&X)\tShift+F4",      ID_FILE_CLOSEALL_EXCEPT
+  S
+  M "在檔案瀏覽器窗格中搜尋",                    ID_MDI_FINDFILEINEXPANE
+  M "開啟資料夾",                                ID_MDI_OPENCFOLDER
+  S
+  M "儲存(&S)\tCtrl+S",                          ID_FILE_SAVE
+  M "另存新檔(&A)...\tF12",                      ID_FILE_SAVE_AS
+  M "另存選取區為(&E)...",                       ID_FILE_SAVESEL
+  M "製作副本/備份(&K)",                         ID_FILE_MAKECOPY
+  S
+  M "回復未改狀態(&D)",                          ID_FILE_REVERT
+  S
+  M "重新命名檔案",                              ID_FILE_RENAME
+  S
+  M "複製檔案路徑/名稱(&F)",                     ID_PATH_TO_CLIPBOARD
+  S
+  P "排序(&R)"
+    M "內容排序 (使用目前選項)(&S)",             ID_SORTFILE
+    LM "進階排序/選項(&A)...",                   ID_SORTFILEADV
+  P "轉換(&I)"
+    M "UNIX/MAC 轉 DOS(&U)",                     ID_FILE_CONVERT
+    M "DOS 轉 MAC(&M)",                          ID_FILE_DOSTOMAC
+    M "DOS 轉 UNIX(&D)",                         ID_FILE_CONVERT_LF
+    S
+    M "EBCDIC 轉 ASCII(&A)",                     ID_FILE_CONVERT_FROMEBCDIC
+    M "ASCII 轉 EBCDIC(&E)",                     ID_FILE_CONVERT_TOEBCDIC
+    S
+    M "OEM 轉 ANSI",                             ID_OEMTOANSI
+    M "ANSI 轉 OEM",                             ID_ANSITOOEM
+    S
+    M "ASCII 轉 Unicode(&I)",                    ID_TO_UNICODE
+    LM "Unicode 轉 ASCII(&O)",                   ID_FROM_UNICODE
+  P "特殊功\能(&U)"
+    M "插入檔案(&I)",                            ID_FILE_INSERT
+    M "刪除作用中檔案(&F)",                      ID_FILE_DELETE
+    M "傳送郵件(&M)",                            ID_FILE_SEND_MAIL
+    LM "數個字元後插入字串(&E)",                 ID_FILE_SPECIALINSERT
+  S
+  M "列印(&P)...\tCtrl+P",                       ID_FILE_PRINT
+  M "預覽列印(&V)",                              ID_FILE_PRINT_PREVIEW
+  S
+  P "檔案標籤"
+    M "可停靠",                                  ID_MDI_DOCKABLE
+    S
+    M "單列 - 可捲動",                           ID_MDI_SLSCROLL
+    M "單列 - 下拉式檔案清單",                   ID_MDI_SLDDFL
+    M "多列標籤",                                ID_MDI_MULTILINE
+    S
+    M "排序檔案索引標籤(&O)",                    ID_SORTFILETABS
+    M "顯示工具提示",                            ID_POPUP_SHOWFILETABTIPS
+    LM "標籤在底部",                             ID_MDI_BOTTOM
+  S
+  M "回復(&R)",                                  ID_FILE_RESTORE
+  M "縮到最小(&N)",                              ID_FILE_MINIMIZE
+  LM "放到最大(&X)",                             ID_FILE_MAXIMIZE
