@@ -1,0 +1,540 @@
+P "檔案(&F)"
+  M "新增(&N)\tCtrl+N",                          ID_FILE_NEW
+  M "開啟舊檔(&O)...\tCtrl+O",                   ID_FILE_OPEN
+  M "快速開啟(&O)...\tCtrl+Q",                   ID_FILE_QUICKOPEN
+  M "關閉(&C)",                                  ID_FILE_CLOSE
+  M "關閉所有檔案(&F)\tCtrl+Shift+F4",           ID_FILE_CLOSEALL
+  M "關閉這個以外的所有檔案(&E)",                ID_FILE_CLOSEALL_EXCEPT
+  S
+  P "FTP 檔案(&T)"
+    M "瀏覽(&B)",                                ID_FTP_LAUNCHBROWSER
+    S
+    M "從 FTP 開啟(&O)...",                      ID_FTP_OPEN
+    M "儲存到 FTP(&A)...",                       ID_FTP_SAVEAS
+    S
+    M "FTP 帳號管理(&M)...",                     ID_FTP_ACCOUNTMANAGER
+    S
+    M "SSH/Telnet 主控台",                       CG_ID_VIEW_SSHTELNET
+    LM "SSH/Telnet 帳號管理器...",               ID_SSH_TELNET_ACCOUNTSETTINGS
+  S
+  M "回復未改狀態(&D)",                          ID_FILE_REVERT
+  S
+  M "儲存(&S)\tCtrl+S",                          ID_FILE_SAVE
+  M "另存新檔(&A)...\tF12",                      ID_FILE_SAVE_AS
+  M "全部儲存(&L)\tAlt+F12",                     ID_FILE_SAVE_ALL
+  M "另存選取區為(&E)...",                       ID_FILE_SAVESEL
+  M "製作副本/備份(&Y)",                         ID_FILE_MAKECOPY
+  S
+  P "加密"
+    M "加密檔案...",                             ID_ENCRYPT_FILE
+    LM "解密檔案...",                            ID_DECRYPT_FILE
+  S
+  M "重新命名檔案",                              ID_FILE_RENAME
+  S
+  M "Co&mpare...\tAlt+F11",                      ID_FILE_COMPAREFILES
+  P "排序(&R)"
+    M "內容排序 (使用目前選項)(&S)",             ID_SORTFILE
+    LM "進階排序/選項(&A)...",                   ID_SORTFILEADV
+  P "轉換(&I)"
+    M "UNIX/MAC 轉 DOS(&U)",                     ID_FILE_CONVERT
+    M "DOS 轉 MAC(&M)",                          ID_FILE_DOSTOMAC
+    M "DOS 轉 UNIX(&D)",                         ID_FILE_CONVERT_LF
+    S
+    M "EBCDIC 轉 ASCII(&A)",                     ID_FILE_CONVERT_FROMEBCDIC
+    M "ASCII 轉 EBCDIC(&E)",                     ID_FILE_CONVERT_TOEBCDIC
+    S
+    M "OEM 轉 ANSI(&N)",                         ID_OEMTOANSI
+    M "ANSI 轉 OEM(&T)",                         ID_ANSITOOEM
+    S
+    M "ASCII 轉 Unicode(&I)",                    ID_TO_UNICODE
+    M "UTF-8 轉 Unicode(&I)",                    ID_UTF8_TO_UNICODE
+    S
+    M "Unicode 轉 ASCII(&O)",                    ID_FROM_UNICODE
+    M "UTF-8 轉 ASCII",                          ID_UTF8_TO_ASCII
+    S
+    M "ASCII 轉 UTF-8 (Unicode 編輯)",           ID_TO_UTF8
+    M "UNICODE/UTF-8 轉 UTF-8 (Unicode 編輯)",   ID_UNICODE_TO_UTF8
+    M "UNICODE/ASCII/UTF-8 轉 UTF-8 (ASCII 編輯)", ID_TO_UTF8_ASCII
+    S
+    M "UNICODE 轉 UNICODE 大字尾轉",             ID_TO_UNICODEBE
+    M "UNICODE 大字尾轉 UNICODE",                ID_FROM_UNICODEBE
+    S
+    M "UNICODE 轉 ASCII 脫逸 Unicode",           ID_TO_UASCII
+    M "ASCII 脫逸 Unicode 為 UNICODE",           ID_FROM_UASCII
+    S
+    M "轉換到...",                               ID_FILE_USERCONVERT_TO
+    M "轉換自...",                               ID_FILE_USERCONVERT_FROM
+    S
+    LM "使用者特殊轉換",                         ID_FILE_USERCONVERT_SPECIAL
+  P "特殊功\能(&U)"
+    M "刪除作用中檔案(&F)",                      ID_FILE_DELETE
+    LM "傳送郵件(&M)",                           ID_FILE_SEND_MAIL
+  S
+  M "列印(&P)...\tCtrl+P",                       ID_FILE_PRINT
+  M "全部列印",                                  ID_FILE_PRINTALL
+  M "預覽列印(&W)",                              ID_FILE_PRINT_PREVIEW
+  P "印表機設定/配置(&G)"
+    M "版面設定(&T)...",                         ID_PAGE_SETUP
+    M "印表機設定(&U)...",                       ID_FILE_PRINT_SETUP
+    M "設定列印字型(&P)...",                     ID_CHOOSE_PRINT_FONT
+    LM "鏡射顯示字型(&M)",                       ID_MIRROR_DISPLAY_FONT
+  S
+  M "我的最愛檔案(&V)...\tCtrl+Shift+F",         ID_FAVORITE_FILES
+  P "最近使用的檔案(&I)"
+    LM "最近使用的檔案",                         ID_FILE_MRU_FILE1
+  P "最近使用專案/工作區(&K)"
+    LM "最近使用專案",                           ID_PROJFILE_MRU_FILE1
+  S
+  M "最近使用的檔案",                            ID_FILE_MRU_FILE1
+  S
+  LM "結束(&X)",                                 ID_APP_EXIT2
+P "編輯(&E)"
+  M "復原(&U)\tCtrl+Z",                          ID_EDIT_UNDO
+  M "重做(&O)\tCtrl+Y",                          ID_EDIT_REDO
+  M "清除撤消",                                  ID_EDIT_CLEARUNDO
+  S
+  M "剪下(&T)\tCtrl+X",                          ID_EDIT_CUT
+  M "複製(&C)\tCtrl+C",                          ID_EDIT_COPY
+  P "特殊複製"
+    M "複製為HTML文件",                          ID_EDIT_COPY_TO_HTML
+    M "複製為HTML",                              ID_EDIT_COPY_TO_HTML_FRAG
+    LM "複製為RTF",                              ID_EDIT_COPY_TO_RTF
+  M "貼上(&P)\tCtrl+V",                          ID_EDIT_PASTE
+  M "貼上及複製\tCtrl+Shift+V",                  ID_EDIT_PASTECOPY
+  M "Paste Column",                              ID_EDIT_PASTE_COLUMN
+  P "特殊貼上"
+    M "HTML 來源檔案",                           ID_EDIT_PASTEAS_HTML
+    LM "原始 RTF",                               ID_EDIT_PASTEAS_RTF
+  M "剪下並附上\tCtrl+Shift+X",                  ID_EDIT_CUTAPPEND
+  M "複製並附上\tCtrl+Shift+C",                  ID_EDIT_COPYAPPEND
+  M "複製檔案路徑/名稱(&F)",                     ID_PATH_TO_CLIPBOARD
+  P "剪貼簿(&B)"
+    M "Windows 剪貼簿(&W)\tCtrl+0",              ID_CLIPBOARD_NORMAL
+    M "使用者剪貼簿 1(&1)\tCtrl+1",              ID_CLIPBOARD_1
+    M "使用者剪貼簿 2(&2)\tCtrl+2",              ID_CLIPBOARD_2
+    M "使用者剪貼簿 3(&3)\tCtrl+3",              ID_CLIPBOARD_3
+    M "使用者剪貼簿 4(&4)\tCtrl+4",              ID_CLIPBOARD_4
+    M "使用者剪貼簿 5(&5)\tCtrl+5",              ID_CLIPBOARD_5
+    M "使用者剪貼簿 6(&6)\tCtrl+6",              ID_CLIPBOARD_6
+    M "使用者剪貼簿 7(&7)\tCtrl+7",              ID_CLIPBOARD_7
+    M "使用者剪貼簿 8(&8)\tCtrl+8",              ID_CLIPBOARD_8
+    LM "使用者剪貼簿 9(&9)\tCtrl+9",             ID_CLIPBOARD_9
+  S
+  M "全部選取(&A)\tCtrl+A",                      ID_EDIT_SELECTALL
+  M "選取整列(&L)",                              ID_EDIT_SELECTLINE
+  M "選取單字(&W)\tCtrl+J",                      ID_SELECTWORD
+  M "選取範圍(&S)...",                           ID_SET_SELECTION
+  M "連續選擇",                                  ID_EDIT_PERSELECTION
+  P "刪除(&E)"
+    M "刪除(&D)\tDEL",                           ID_EDIT_DELETE
+    M "刪除整列(&L)\tCtrl+E",                    ID_EDIT_DELETELINE
+    M "刪除到列首(&S)\tCtrl+F11",                ID_EDIT_DELETETOSTARTOFLINE
+    M "刪除到列尾(&E)\tCtrl+F12",                ID_EDIT_DELETETOENDOFLINE
+    M "刪除所有書籤列",                          ID_DELETEALLBOOKMARKLINES
+    LM "刪除所有隱藏列(&H)",                     ID_VIEW_DELETE_HIDDEN
+  S
+  M "上移一列",                                  ID_MOVE_LINE_UP
+  M "下移一列",                                  ID_MOVE_LINE_DOWN
+  M "重覆整列(&D)\tCtrl+Alt+D",                  ID_DUPLICATE_LINE
+  S
+  P "16 進位 (HEX) 功\能(&X)"
+    M "16 進位編輯(&H)\tCtrl+H",                 ID_EDIT_HEX
+    M "16 進位編輯/EBCDIC(&X)",                  ID_EDIT_HEXEBCDIC
+    M "16 進位插入/刪除(&D)...\tCtrl+D",         ID_HEX_INSERT
+    LM "16 進位複製選取的檢視(&V)",              ID_HEX_COPY
+  S
+  M "拼字檢查(&K)\tCtrl+K",                      ID_SPELLCHECK
+  S
+  M "唯讀(&Y)",                                  ID_READONLY
+  S
+  M "切換換列(&G)\tCtrl+W",                      ID_WORD_WRAP
+  S
+  M "編碼 Base64",                               ID_ENCODE_BASE64
+  M "解碼 Base64",                               ID_DECODE_BASE64
+  S
+  M "加入註解(&N)",                              ID_EDIT_COMMENT
+  M "移除註解(&R)",                              ID_EDIT_COMMENT_REMOVE
+  M "註記選擇",                                  ID_ADD_BLOCK_COMMENT
+  LM "未註記選擇",                               ID_REMOVE_BLOCK_COMMENT
+P "搜尋(&S)"
+  M "快速查找 (Q)...",                           ID_EDIT_QUICK_FIND
+  M "搜尋(&F)...\tAlt+F3",                       ID_EDIT_FIND
+  M "找下一個(&N)\tF3",                          ID_EDIT_FINDNEXT
+  M "找上一個(&V)\tCtrl+F3",                     ID_EDIT_FINDPREV
+  M "取代(&R)...\tCtrl+R",                       ID_EDIT_REPLACE
+  S
+  M "多重檔案搜尋(&I)...",                       ID_FINDINFILES
+  M "多重檔案取代(&P)...",                       ID_REPLACEINFILES
+  S
+  M "轉到匹配括弧",                              ID_MATCHBRACE_NOSEL
+  M "選取至匹配括弧(&M)\tCtrl+B",                ID_MATCHBRACE
+  S
+  M "前往(&G)...\tCtrl+G",                       ID_EDIT_GOTO
+  S
+  P "書籤"
+    M "切換書籤(&B)\tCtrl+F2",                   ID_SET_BOOKMARK
+    M "上一個書籤(&E)\tAlt+F2",                  ID_GOTO_PREVBOOKMARK
+    M "下一個書籤(&K)\tF2",                      ID_GOTO_BOOKMARK
+    M "清除所有書籤(&O)",                        ID_RESET_BOOKMARK
+    M "編輯書籤(&D)...",                         ID_EDIT_BOOKMARKS
+    LM "刪除所有書籤列",                         ID_DELETEALLBOOKMARKLINES
+  S
+  M "字數計算(&W)",                              ID_WORDCOUNT
+  S
+  M "函式清單(&L)\tF8",                          ID_FINDFUNC
+  S
+  M "搜尋符號(&Y)\tF11",                         ID_FIND_TAG
+  S
+  M "字元內容(&A)\tAlt+Enter",                   ID_CHAR_UNDERCURSOR
+  S
+  M "上一次變更的線條",                          ID_PREV_CHANGED_LINE
+  M "下一次變更的線條",                          ID_NEXT_CHANGED_LINE
+  S
+  M "退後 (上一個位置)(&B)",                     ID_BACK
+  LM "前進 (下一個位置)(&A)",                    ID_FORWARD
+P "插入(&N)"
+  M "日期/時間(&D)",                             ID_EDIT_TIMEDATE
+  S
+  M "列(&L)",                                    ID_INSERTLINE
+  M "分頁(&P)",                                  ID_EDIT_PAGE_BREAK
+  S
+  M "檔案(&F)",                                  ID_FILE_INSERT
+  S
+  M "自動遞增字串(&S)...",                       ID_FILE_SPECIALINSERT
+  M "原值字元(&I)",                              ID_INSERTLITERAL
+  S
+  M "範本(&T)...",                               ID_INSERT_TEMPLATE
+  P "個人範本(&N)"
+    M "使用者範本 0(&0)",                        ID_INSERTTEMP0
+    M "使用者範本 1(&1)",                        ID_INSERTTEMP1
+    M "使用者範本 2(&2)",                        ID_INSERTTEMP2
+    M "使用者範本 3(&3)",                        ID_INSERTTEMP3
+    M "使用者範本 4(&4)",                        ID_INSERTTEMP4
+    M "使用者範本 5(&5)",                        ID_INSERTTEMP5
+    M "使用者範本 6(&6)",                        ID_INSERTTEMP6
+    M "使用者範本 7(&7)",                        ID_INSERTTEMP7
+    M "使用者範本 8(&8)",                        ID_INSERTTEMP8
+    LM "使用者範本 9(&9)",                       ID_INSERTTEMP9
+  S
+  LM "色彩(&O)...",                              ID_TOOLS_COLORPICKER
+P "專案(&P)"
+  M "新增專案/工作區(&N)...",                    ID_PROJECT_NEWPROJECT
+  M "開啟專案/工作區(&O)...\tAlt+Shift+O",       ID_PROJECT_OPENPROJECT
+  M "關閉專案/工作區(&C)\tAlt+Shift+C",          ID_PROJECT_CLOSEPROJECT
+  S
+  M "專案設定(&S)...\tAlt+Shift+S",              ID_PROJECTFILES
+  S
+  P "加入到專案(&A)"
+    M "檔案(&F)...",                             ID_PROJECT_ADDTOPROJECT_FILES
+    S
+    M "群組(&G)...",                             ID_PROJECT_ADDTOPROJECT_NEWGROUP
+    LM "檔夾(&D)... ",                           ID_PROJECT_ADDTOPROJECT_NEWFOLDER
+  S
+  M "設定自動載入巨集...",                       ID_MACRO_SETAUTO_PROJECT
+  S
+  M "備份專案/工作區(&B)",                       ID_PROJECT_BACKUP
+  M "回復專案/工作區(&R)",                       ID_PROJECT_RESTORE
+  S
+  M "建立 CTAG 檔案(&G)",                        ID_PROJECT_CREATETAGS
+  M "CTAG 選項(&P)...",                          ID_TAGOPTIONS
+  S
+  LM "最近使用專案(&R)",                         ID_PROJFILE_MRU_FILE1
+P "檢視(&V)"
+  P "版面配置(&T)"
+    M "管理和版面配置(&L)...",                   ID_PROFILE_SWITCH
+    M "版面配置/主題選擇器(&T)...",              ID_PROFILE_SWITCH_LIST
+    S
+    LM "版面配置 1",                             ID_ENVIRONMENT_SELSTART
+  P "主題(&M)"
+    M "管理主題(&M)...",                         ID_THEME_MANAGE
+    M "版面配置/主題選擇器(&T)...",              ID_PROFILE_SWITCH_LIST
+    S
+    LM "主題 1",                                 ID_THEME_START 
+  S 
+  P "檢視/清單(&V)"
+    P "工具列(&T)"
+      LM "工具列 1(&1)",                         ID_VIEW_TOOLBAR1
+    M "狀態列(&S)",                              ID_VIEW_STATUS_BAR1
+    S
+    M "開啟檔案索引標籤(&E)",                    CG_ID_VIEW_FILELISTDIALOG
+    M "檔案樹狀檢視(&V)\tCtrl+U",                ID_PRJFRAME
+    S
+    M "ASCII 字元對照表",                        CG_ID_VIEW_ASCIITAB
+    S
+    M "函式清單(&F)",                            CG_ID_VIEW_FUNCLIST
+    M "標籤清單(&A)\tCtrl+F8",                   CG_ID_VIEW_TAGLIST
+    M "範本清單(&P)",                            CG_ID_VIEW_TEMPLATELIST
+    M "巨集清單(&M)",                            CG_ID_VIEW_MACROLIST
+    M "指令碼清單",                              CG_ID_VIEW_SCRIPTLIST
+    M "XML 管理員",                              CG_ID_VIEW_XMLTREE
+    S
+    M "書籤檢視器",                              CG_ID_VIEW_BOOKLIST
+    M "剪貼簿歷程",                              CG_ID_VIEW_CLIPLIST
+    M "搜尋字串清單(&N)",                        CG_ID_VIEW_LISTOCC
+    S
+    M "輸出視窗(&U)",                            CG_ID_VIEW_OUTPUTWINDOW
+    S
+    M "SSH/Telnet 主控台",                       CG_ID_VIEW_SSHTELNET
+    S
+    LM "回復浮動視窗",                           ID_MOVE_FLOATWIN_INSIDE_APP
+  S
+  P "檢視方式 (突顯檔案類型)(&Y)"
+    M "語言 1",                                  ID_VIEW_AS_FILETYPEBEGIN
+    M "語言 1",                                  ID_VIEW_AS_FILETYPE1
+    LM "不突顯",                                 ID_VIEW_AS_FILETYPENONE
+  S
+  M "設定字碼頁(&T)...",                         ID_CHOOSE_CODEPAGE
+  S
+  M "設定顯示字型(&F)...",                       ID_CHOOSE_FONT
+  M "設定 16 進位/區塊字型(&X)...",              ID_CHOOSE_FIXEDFONT
+  M "重設字型 (預設)(&R) ",                      ID_RESET_FONTS
+  S
+  M "+ 增加字型大小(&I)",                        ID_FONT_PLUS
+  M "- 減少字型大小(&Z)",                        ID_FONT_MINUS
+  S
+  M "顯示空格/跳格字元(&O)",                     ID_VIEWCODES
+  M "顯示換列符號(&G)",                          ID_SHOW_LINE_ENDS
+  M "將分頁符號顯示為水平線(&K)",                ID_SHOWPAGEBREAKS
+  M "Show Active Column Highlighting",           ID_SHOWACTCOLHIGHLIGHTING
+  S
+  P "欄標記(&N)"
+    M "顯示行標記(&W)",                          ID_SHOWCOLUMNMARKERS
+    M "設定行及標記(&M)...",                     ID_SETCOLUMNMARKERS
+    LM "不捲動記號 1 的左邊(&N)",                ID_FIX_LEFTPANE
+  S
+  M "列變更指標 (LCI)",                          ID_LINE_CHANGE_INDICATOR
+  M "停用所有檔案的 LCI",                        ID_LINE_CHANGE_INDICATOR_OFF
+  S
+  M "亮顯所有啟動項",                            ID_HIGHLIGHT_ALL
+  S
+  M "顯示尺規(&D)",                              ID_DISPLAY_RULER
+  M "顯示列號(&L)",                              ID_DISPLAY_LINENUM
+  S
+  P "列距(&S)"
+    M "1.0 倍列距(&S)",                          ID_VIEWSPACING_NORMAL
+    M "1.5 倍列距(&P)",                          ID_VIEWSPACING_ONEHALF
+    LM "2.0 倍列距(&D)",                         ID_VIEWSPACING_DOUBLE
+  S
+  P "隱藏/顯示列(&H)"
+    M "隱藏/顯示選擇(&H)\tCtrl -",               ID_VIEW_HIDE
+    M "全部收摺(&C)\tCtrl +",                    ID_VIEW_COLLAPSE_ALL
+    LM "全部展開(&E)\tCtrl *",                   ID_VIEW_EXPAND_ALL
+  M "顯示摺疊列",                                ID_VIEW_SHOW_INDENT_LINES
+  S
+  M "檔案變更輪詢(&P)",                          ID_POLLFILE
+  M "自動捲動輪詢的檔案(&A)",                    ID_POLLSCROLL
+  S
+  M "最上層顯示(&W)",                            ID_VIEW_ALWAYSONTOP
+  M "全螢幕模式(&U)",                            ID_VIEW_FULLSCREEN
+  S
+  M "切換瀏覽器檢視(&B)",                        ID_BROWSER_MODE
+  LM "更新瀏覽器檢視",                           ID_BROWSER_REFRESH
+P "格式(&T)"
+  M "重新格式化段落(&M)\tCtrl+T",                ID_EDIT_REFORMAT
+  P "段落格式(&F)"
+    M "靠左對齊(&L)",                            ID_EDIT_REFORMAT_LEFT
+    M "靠右對齊(&R)",                            ID_EDIT_REFORMAT_RIGHT
+    M "置中對齊(&C)",                            ID_EDIT_REFORMAT_CENTER
+    M "左右對齊(&F)",                            ID_EDIT_REFORMAT_FILL
+    S
+    LM "段落設定/格式化(&S)...",                 ID_EDIT_REFORMAT_ADV
+  S
+  M "CR/LF 轉為自動換列(&W)",                    ID_FILE_REMOVECR
+  M "自動換列轉為 CR/LF(&V)",                    ID_FILE_SAVESOFTCR
+  S
+  M "Tab 轉為空格(&S)",                          ID_TABTOSPACES
+  M "全部空格轉為 Tab(&P)",                      ID_SPACESTOSTABSALL
+  M "列首空格轉為 Tab(&D)",                      ID_SPACESTOSTABS
+  S
+  M "刪除列尾空格(&G)",                          ID_TRIM_SPACES
+  S
+  M "轉換成大寫(&O)\tAlt+F5",                    ID_TOUPPER
+  M "轉換成小寫(&L)\tCtrl+F5",                   ID_TOLOWER
+  M "大寫(&A)\tF5",                              ID_CAPITALIZE
+  M "大小寫互換(&C)\tShift+F5",                  ID_INVERTCASE
+  S
+  M "加入縮排(&I)",                              ID_ADD_INDENTS
+  M "移除縮排(&E)",                              ID_REMOVE_INDENTS
+  S
+  P "HTML 檢驗(&H)"
+    M "執行 HTML 清理(&H)",                      ID_TOOLS_HTMLTIDY
+    S
+    M "執行 CSE HTML 檢驗器(&V)",                ID_HTMLVALIDATOR
+    M "CSE HTML 檢驗器工作類型(&J)...",          ID_HTMLVALIDATOR_JOB_TYPE
+    M "CSE HTML 檢驗器選項(&O)...",              ID_HTMLVALIDATOR_OPTIONS
+    LM "CSE HTML 檢驗器配置(&C)",                ID_HTMLVALIDATOR_CFG
+  M "XML 轉換為 CR/LF(&X)",                      ID_XML_VIEWER
+  M "XMLlint 工具",                              ID_TOOLS_XMLLINT
+  S
+  LM "選擇區重新縮排(&R)",                       ID_EDIT_REINDENTFILE
+P "直行(&L)"
+  M "區塊模式(&C)\tAlt+C",                       ID_EDIT_COLUMN
+  S
+  M "插入/填滿區塊(&I)...",                      ID_COLUMN_INSERT
+  M "刪除區塊(&D)...",                           ID_COLUMN_DELETE
+  M "剪下區塊(&U)...",                           ID_COLUMN_CUT
+  M "插入列號(&N)...",                           ID_COLUMN_NUMBER
+  S
+  M "區塊數字加總/選擇(&S)...",                  ID_SUMCOLUMNS
+  S
+  M "轉換成固定行(&X)...",                       ID_CONVERT_TO_FIXEDCOLUMN
+  M "轉換成字元分隔(&E)...",                     ID_CONVERT_FROM_FIXEDCOLUMN
+  S
+  M "對齊區塊左側(&L)",                          ID_COLUMN_LEFTJUSTIFY
+  M "對齊區塊中央(&C)",                          ID_COLUMN_CENTERJUSTIFY
+  LM "對齊區塊右側(&R)",                         ID_COLUMN_RIGHTJUSTIFY
+P "巨集(&M)"
+  M "載入巨集(&L)...",                           ID_MACRO_LOAD
+  M "載入並附加到現有巨集(&X)...",               ID_MACRO_LOADAPPEND
+  M "全部儲存(&A)...",                           ID_MACRO_SAVE
+  S
+  M "快速錄製(&Q)\tCtrl+Shift+R",                ID_MACRO_QUICKRECORD
+  S
+  M "設定自動載入巨集(&U)...",                   ID_MACRO_SETAUTO
+  M "設定檔案載入/儲存的巨集(&O)...",            ID_MACRO_SET_OSLOAD
+  S
+  M "編輯巨集(&E)...",                           ID_EDIT_MACRO
+  M "全部刪除(&T)",                              ID_MACRODELETEALL
+  M "刪除巨集/修改內容(&D)...",                  ID_MACROMODIFY
+  S
+  M "錄製巨集(&R)...",                           ID_MACRO_RECORD
+  M "停止錄製巨集(&S)",                          ID_MACRO_STOPRECORDING
+  S
+  M "再次播放(&P)\tCtrl+M",                      ID_MACRO_PLAY
+  M "播放任何/多次(&M)...\tCtrl+L",              ID_MACRO_PLAYMULTIPLETIMES
+  S
+  M "顯示錄製巨集前選項",                        ID_MACRO_SHOWPOSTMACRORECORDOPTIONS
+  LM "巨集未儲存而離開時警告(&W)",               ID_MACRO_WARNNOTSAVE
+P "指令碼(&S)"
+  M "指令碼...",                                 ID_SCRIPTS
+  S
+  LM "指令碼清單",                               CG_ID_VIEW_SCRIPTLIST
+P "進階(&A)"
+  M "配置(&C)...",                               ID_UEOPTIONS
+  S
+  M "匯入設定(&I)...",                           ID_IMPORT_SETTINGS
+  M "匯出設定(&E)...",                           ID_EXPORT_SETTINGS
+  M "備份/回復使用者自訂內容(&B)...",            ID_BACRES_USERCUST
+  S
+  M "開啟新的 UltraEdit-32 執行個體(&S)",        ID_APP_NEW_INSTANCE
+  S
+  M "設定字碼頁/所在地(&G)...",                  ID_SETCODEPAGE
+  S
+  M "DOS 命令(&D)...\tF9",                       ID_RUNDOSCMD
+  M "上次的 DOS 命令(&L)\tCtrl+F9",              ID_RUNDOSCMD1
+  M "執行 Windows 程式(&W)...\tF10",             ID_RUNWINPROG
+  S
+  M "顯示/修改範本(&T)...",                      ID_DISP_TEMPLATE
+  S
+  M "工具配置(&O)...",                           ID_CFGTOOLS
+  M "專案工具配置(&P)...",                       ID_CFGPROJTOOLS
+  S
+  M "工具 1",                                    ID_TOOLUSER1
+  M "工具 2",                                    ID_TOOLUSER2
+  M "工具 3",                                    ID_TOOLUSER3
+  M "工具 4",                                    ID_TOOLUSER4
+  M "工具 5",                                    ID_TOOLUSER5
+  M "工具 6",                                    ID_TOOLUSER6
+  M "工具 7",                                    ID_TOOLUSER7
+  M "工具 8",                                    ID_TOOLUSER8
+  M "工具 9",                                    ID_TOOLUSER9
+  M "工具 10",                                   ID_TOOLUSER10
+  M "使用者工具 11",                             ID_TOOLUSER11
+  M "使用者工具 12",                             ID_TOOLUSER12
+  M "使用者工具 13",                             ID_TOOLUSER13
+  M "使用者工具 14",                             ID_TOOLUSER14
+  M "使用者工具 15",                             ID_TOOLUSER15
+  M "使用者工具 16",                             ID_TOOLUSER16
+  M "使用者工具 17",                             ID_TOOLUSER17
+  M "使用者工具 18",                             ID_TOOLUSER18
+  M "使用者工具 19",                             ID_TOOLUSER19
+  M "使用者工具 20",                             ID_TOOLUSER20
+  M "使用者工具 21",                             ID_TOOLUSER21
+  M "使用者工具 22",                             ID_TOOLUSER22
+  M "使用者工具 23",                             ID_TOOLUSER23
+  M "使用者工具 24",                             ID_TOOLUSER24
+  M "使用者工具 25",                             ID_TOOLUSER25
+  M "專案工具 1",                                ID_PROJTOOLUSER1
+  M "專案工具 2",                                ID_PROJTOOLUSER2
+  M "專案工具 3",                                ID_PROJTOOLUSER3
+  M "專案工具 4",                                ID_PROJTOOLUSER4
+  M "專案工具 5",                                ID_PROJTOOLUSER5
+  M "專案工具 6",                                ID_PROJTOOLUSER6
+  M "專案工具 7",                                ID_PROJTOOLUSER7
+  M "專案工具  8",                               ID_PROJTOOLUSER8
+  M "專案工具 9",                                ID_PROJTOOLUSER9
+  M "專案工具 10",                               ID_PROJTOOLUSER10
+  M "使用者專案工具 11",                         ID_PROJTOOLUSER11
+  M "使用者專案工具 12",                         ID_PROJTOOLUSER12
+  M "使用者專案工具 13",                         ID_PROJTOOLUSER13
+  M "使用者專案工具 14",                         ID_PROJTOOLUSER14
+  M "使用者專案工具 15",                         ID_PROJTOOLUSER15
+  M "使用者專案工具 16",                         ID_PROJTOOLUSER16
+  M "使用者專案工具 17",                         ID_PROJTOOLUSER17
+  M "使用者專案工具 18",                         ID_PROJTOOLUSER18
+  M "使用者專案工具 19",                         ID_PROJTOOLUSER19
+  M "使用者專案工具 20",                         ID_PROJTOOLUSER20
+  M "使用者專案工具 21",                         ID_PROJTOOLUSER21
+  M "使用者專案工具 22",                         ID_PROJTOOLUSER22
+  M "使用者專案工具 23",                         ID_PROJTOOLUSER23
+  M "使用者專案工具 24",                         ID_PROJTOOLUSER24
+  LM "使用者專案工具 25",                        ID_PROJTOOLUSER25
+P "視窗(&W)"
+  M "複製視窗(&D)",                              ID_WINDOW_NEW
+  S
+  M "啟用並排 / 可停靠標籤",                     ID_MENU_TOGGLE_DOCKABLE_TABS
+  M "重疊顯示(&C)",                              ID_WINDOW_CASCADE
+  M "水平並排(&T)",                              ID_WINDOW_TILE_HORZ
+  M "垂直並排(&V)",                              ID_WINDOW_TILE_VERT
+  S
+  M "下一個視窗(&N)",                            ID_NEXTWINDOW
+  M "上一個視窗(&P)",                            ID_PREVWINDOW
+  M "排列圖示(&A)",                              ID_WINDOW_ARRANGE
+  S
+  M "下一個檔案標籤(&E)\tAlt+Down",              ID_NEXTTAB
+  M "上一個檔案標籤(&B)\tAlt+Up",                ID_PREVTAB
+  S
+  M "分割視窗(&O)",                              ID_SPLIT_WINDOW
+  S
+  M "最小化所有視窗(&M)",                        ID_FILE_MINIMIZE_ALL
+  M "關閉所有檔案(&L)",                          ID_FILE_CLOSEALL
+  S
+  M "輸出視窗(&U)",                              CG_ID_VIEW_OUTPUTWINDOW
+  M "在瀏覽器中顯示檔案(&S)",                    ID_BROWSER
+  S
+  M "同步捲動(&Y)",                              ID_SYNC_WINDOWS
+  S
+  LM "",                                         AFX_IDM_FIRST_MDICHILD
+LP "說明(&H)"
+  M "索引(&I)\tF1",                              ID_HELP_INDEX
+  M "如何使用說明(&U)",                          ID_HELP_USING
+  M "快速入門指南",                              ID_SHOW_DAILYTIP
+  S
+  M "使用者說明檔案 1",                          ID_USERHELP1
+  M "使用者說明檔案 2",                          ID_USERHELP2
+  M "使用者說明檔案 3",                          ID_USERHELP3
+  M "使用者說明檔案 4",                          ID_USERHELP4
+  M "使用者說明檔案 5",                          ID_USERHELP5
+  M "使用者說明檔案 6",                          ID_USERHELP6
+  M "使用者說明檔7",                             ID_USERHELP7
+  M "使用者說明檔8",                             ID_USERHELP8
+  M "使用者說明檔9",                             ID_USERHELP9
+  M "使用者說明檔10",                            ID_USERHELP10
+  M "使用者說明檔11",                            ID_USERHELP11
+  M "使用者說明檔12",                            ID_USERHELP12
+  M "使用者說明檔13",                            ID_USERHELP13
+  M "使用者說明檔14",                            ID_USERHELP14
+  M "使用者說明檔15",                            ID_USERHELP15
+  M "使用者說明檔16",                            ID_USERHELP16
+  M "使用者說明檔17",                            ID_USERHELP17
+  M "使用者說明檔18",                            ID_USERHELP18
+  M "使用者說明檔19",                            ID_USERHELP19
+  M "使用者說明檔20",                            ID_USERHELP20
+  M "加入說明檔案(&D)...",                       ID_ADDHELP
+  S
+  M "線上論壇(&F)",                              ID_HELP_FORUMS
+  M "檢查更新(&C)",                              ID_CHECKFORUPDATES
+  M "IDM 產品(&P)",                              ID_HELP_SHOWAD
+  S
+  M "註冊...",                                   ID_REGISTER_ULTRAEDIT
+  LM "關於(&A)...",                              ID_APP_ABOUT
