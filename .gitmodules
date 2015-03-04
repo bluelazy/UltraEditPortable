@@ -2,3 +2,7 @@
 	path = App/UltraEdit/wordfiles
 	url = https://github.com/bluelovers/wordfiles.git
 	branch = wordfiles
+[submodule "App/UltraEdit/default data/themes"]
+	path = App/UltraEdit/default data/themes
+	url = https://github.com/bluelovers/UltraEdit-themes.git
+	branch = themes
