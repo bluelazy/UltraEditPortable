@@ -1,0 +1,4 @@
+[submodule "App/UltraEdit/wordfiles"]
+	path = App/UltraEdit/wordfiles
+	url = https://github.com/bluelovers/wordfiles.git
+	branch = wordfiles
