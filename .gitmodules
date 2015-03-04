@@ -1,4 +1,4 @@
 [submodule "App/UltraEdit/default data/themes"]
 	path = App/UltraEdit/default data/themes
-	url = https://github.com/bluelovers/UltraEdit-themes.git
+	url = https://github.com/bluelovers/ultraedit-themes.git
 	branch = themes
